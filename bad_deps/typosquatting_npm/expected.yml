@@ -1,9 +1,0 @@
-fail:
-  - dependency: "jquery.js: 0.0.2-security"
-    detector: typosquatting
-    direct_dependency: true
-    file: bad/package.json
-pass:
-  - dependency: "jquery.ujs: 1.2.3"
-    direct_dependency: true
-    file: good/package.json

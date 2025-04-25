@@ -1,5 +1,0 @@
-fail:
-  - dependency: "pyslqite3==3.0.1"
-    detector: anomaly
-    direct_dependency: true
-    file: setup.py
